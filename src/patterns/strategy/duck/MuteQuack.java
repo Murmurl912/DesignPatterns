@@ -1,4 +1,4 @@
-package patterns.strategy;
+package patterns.strategy.duck;
 
 public class MuteQuack extends QuackBehavior {
     @Override
