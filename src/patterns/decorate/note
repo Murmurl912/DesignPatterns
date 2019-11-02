@@ -1,0 +1,12 @@
+A real word decorator
+
+InputStream  # abstract class provide io operation
+    ^
+    |
+FileInputStream    # decorator InputStream with file operation
+    ^
+    |
+BufferedInputStream     # provide readline() method to enhance interface
+    ^
+    |
+LineNumberInputStream   # provide calculate line number
